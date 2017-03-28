@@ -27,7 +27,28 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 500, height: 400)
 
-// Replace this comment and add your code below 
+//Getting rid of black border
+canvas.drawShapesWithBorders = false
+
+//Triangle Color
+canvas.fillColor = Color.init(hue: 80, saturation: 80, brightness: 70, alpha: 100)
+
+// drawing a triangle
+var points : [NSPoint] = [] // creats empty list (array) of type NSPoint
+points.append(NSPoint(x: 4, y: 5) )
+points.append(NSPoint(x: 50, y: 100) )
+points.append(NSPoint(x: 200, y: 50) )
+canvas.drawCustomShape(with: points)
+
+//Color for Rounded shape
+canvas.fillColor = Color.init(hue: 50, saturation: 100, brightness: 75, alpha: 100)
+
+//Rounded shape
+canvas.drawRoundedRectangle(centreX: 250, centreY: 250, width: 80, height: 100)
+
+
+
+
 
 
 /*:
