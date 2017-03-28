@@ -31,7 +31,7 @@ let canvas = Canvas(width: 500, height: 400)
 canvas.drawShapesWithBorders = false
 
 //Triangle Color
-canvas.fillColor = Color.init(hue: 80, saturation: 80, brightness: 70, alpha: 100)
+canvas.fillColor = Color.init(hue: 80, saturation: 90, brightness: 65, alpha: 90)
 
 // drawing a triangle
 var points : [NSPoint] = [] // creats empty list (array) of type NSPoint
@@ -41,10 +41,19 @@ points.append(NSPoint(x: 200, y: 50) )
 canvas.drawCustomShape(with: points)
 
 //Color for Rounded shape
-canvas.fillColor = Color.init(hue: 50, saturation: 100, brightness: 75, alpha: 100)
+canvas.fillColor = Color.init(hue: 50, saturation: 100, brightness: 90, alpha: 90)
 
 //Rounded shape
 canvas.drawRoundedRectangle(centreX: 250, centreY: 250, width: 80, height: 100)
+
+
+//Rectangle Color
+canvas.fillColor = Color.init(hue: 220, saturation: 100, brightness: 90, alpha: 90)
+
+//Rectangle
+canvas.drawRectangle(centreX: 200, centreY: 100, width: 80, height: 300)
+
+//Circle
 
 
 
