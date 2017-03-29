@@ -25,36 +25,40 @@ import Cocoa
 import PlaygroundSupport
 
 // Create canvas
-let canvas = Canvas(width: 500, height: 400)
+let canvas = Canvas(width: 600, height: 300)
 
 //Getting rid of black border
 canvas.drawShapesWithBorders = false
 
 //Triangle Color
-canvas.fillColor = Color.init(hue: 80, saturation: 90, brightness: 65, alpha: 90)
+canvas.fillColor = Color.init(hue: 80, saturation: 90, brightness: 70, alpha: 75)
 
 // drawing a triangle
 var points : [NSPoint] = [] // creats empty list (array) of type NSPoint
-points.append(NSPoint(x: 4, y: 5) )
-points.append(NSPoint(x: 50, y: 100) )
-points.append(NSPoint(x: 200, y: 50) )
+points.append(NSPoint(x: 500, y: 50) )
+points.append(NSPoint(x: 575, y: 250) )
+points.append(NSPoint(x: 425, y: 250) )
 canvas.drawCustomShape(with: points)
 
 //Color for Rounded shape
-canvas.fillColor = Color.init(hue: 50, saturation: 100, brightness: 90, alpha: 90)
+canvas.fillColor = Color.init(hue: 50, saturation: 100, brightness: 90, alpha: 75)
 
 //Rounded shape
-canvas.drawRoundedRectangle(centreX: 250, centreY: 250, width: 80, height: 100)
+canvas.drawRoundedRectangle(centreX: 415, centreY: 160, width: 100, height: 120)
 
 
 //Rectangle Color
-canvas.fillColor = Color.init(hue: 220, saturation: 100, brightness: 90, alpha: 90)
+canvas.fillColor = Color.init(hue: 220, saturation: 100, brightness: 90, alpha: 75)
 
 //Rectangle
-canvas.drawRectangle(centreX: 200, centreY: 100, width: 80, height: 300)
+canvas.drawRectangle(centreX: 340, centreY: 150, width: 100, height: 250)
 
-//Circle
 
+//Circle Color
+canvas.fillColor = Color.init(hue: 0, saturation: 100, brightness: 90, alpha: 75)
+
+//Circle
+canvas.drawEllipse(centreX: 240, centreY: 130, width: 150, height: 150)
 
 
 
