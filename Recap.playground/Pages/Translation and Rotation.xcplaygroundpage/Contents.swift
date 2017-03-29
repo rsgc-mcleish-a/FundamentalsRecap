@@ -42,6 +42,12 @@ canvas.drawText(message: "y", size: 24, x: 10, y: 375)
 canvas.drawLine(fromX: -400, fromY: 0, toX: 400, toY: 0)
 canvas.drawText(message: "x", size: 24, x: 375, y: 10)
 
+//Vertical line
+canvas.drawLine(fromX: 200, fromY: 400, toX: 200, toY: 0)
+
+//Horizantal line
+canvas.drawLine(fromX: 0, fromY: 200, toX: 400, toY: 200)
+
 /*:
  ## Challenge 1
 
