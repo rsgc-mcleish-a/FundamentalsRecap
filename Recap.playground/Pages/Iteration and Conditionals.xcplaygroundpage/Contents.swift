@@ -21,8 +21,16 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 400)
 
-//Big Ovals
-canvas.drawEllipse(centreX: 200, centreY: 200, width: 10, height: 300)
+
+canvas.translate(byX: 200, byY: 200)
+for x in 1...18{
+    canvas.rotate(by: 20)
+    canvas.drawEllipse(centreX: 0, centreY: 0, width: 20, height: 350)
+}
+for x in 1...18{
+    canvas.rotate(by: 10)
+    canvas.drawEllipse(centreX: 0, centreY: 0, width: 20, height: 250)
+}
 
 /*:
  ## Template code
