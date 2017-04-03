@@ -27,7 +27,165 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 400)
 
-// Replace this comment and add your code below
+//Brown Color
+canvas.fillColor = Color.init(hue: 26, saturation: 69, brightness: 37, alpha: 100)
+
+//Brown Circles
+for x in stride(from: 25, through: 450, by: 70){
+
+//First Row
+canvas.drawEllipse(centreX: x, centreY: 365, width: 60, height: 60)
+
+//Second Row
+canvas.drawEllipse(centreX: x, centreY: 250, width: 60, height: 60)
+
+//Third Row
+canvas.drawEllipse(centreX: x, centreY: 175, width: 60, height: 60)
+  
+//Fourth Row
+canvas.drawEllipse(centreX: x, centreY: 35, width: 60, height: 60)
+}
+
+//Orange Color
+canvas.fillColor = Color.init(hue: 22, saturation: 93, brightness: 90, alpha: 100)
+
+//Orange Circles
+for x in stride(from: 25, through: 450, by: 70){
+    
+    //First Row
+    canvas.drawEllipse(centreX: x, centreY: 365, width: 45, height: 45)
+    
+    //Sedond Row
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 45, height: 45)
+    
+    //Third Row
+    canvas.drawEllipse(centreX: x, centreY: 175, width: 45, height: 45)
+    
+    //Forth Row
+    canvas.drawEllipse(centreX: x, centreY: 35, width: 45, height: 45)
+}
+
+//Orange Color
+canvas.fillColor = Color.init(hue: 53, saturation: 93, brightness: 98, alpha: 100)
+
+//Orange Circles
+for x in stride(from: 25, through: 450, by: 70){
+    
+    //First Row
+    canvas.drawEllipse(centreX: x, centreY: 365, width: 30, height: 30)
+    
+    //Sedond Row
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 30, height: 30)
+    
+    //Third Row
+    canvas.drawEllipse(centreX: x, centreY: 175, width: 30, height: 30)
+    
+    //Forth Row
+    canvas.drawEllipse(centreX: x, centreY: 35, width: 30, height: 30)
+}
+
+//White Color
+canvas.fillColor = Color.white
+
+//White Circles
+for x in stride(from: 25, through: 450, by: 70){
+    
+    //First Row
+    canvas.drawEllipse(centreX: x, centreY: 365, width: 15, height: 15)
+    
+    //Sedond Row
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 15, height: 15)
+    
+    //Third Row
+    canvas.drawEllipse(centreX: x, centreY: 175, width: 15, height: 15)
+    
+    //Forth Row
+    canvas.drawEllipse(centreX: x, centreY: 35, width: 15, height: 15)
+}
+
+
+
+
+
+
+//Brown Color
+canvas.fillColor = Color.init(hue: 26, saturation: 69, brightness: 37, alpha: 100)
+
+//Brown Circles
+for x in stride(from: 60, through: 450, by: 70){
+    
+    //First Row
+    canvas.drawEllipse(centreX: x, centreY: 300, width: 60, height: 60)
+    
+    //Second Row
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 60, height: 60)
+    
+    //Third Row
+    canvas.drawEllipse(centreX: x, centreY: 175, width: 60, height: 60)
+    
+    //Fourth Row
+    canvas.drawEllipse(centreX: x, centreY: 35, width: 60, height: 60)
+}
+
+//Orange Color
+canvas.fillColor = Color.init(hue: 22, saturation: 93, brightness: 90, alpha: 100)
+
+//Orange Circles
+for x in stride(from: 25, through: 450, by: 70){
+    
+    //First Row
+    canvas.drawEllipse(centreX: x, centreY: 365, width: 45, height: 45)
+    
+    //Sedond Row
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 45, height: 45)
+    
+    //Third Row
+    canvas.drawEllipse(centreX: x, centreY: 175, width: 45, height: 45)
+    
+    //Forth Row
+    canvas.drawEllipse(centreX: x, centreY: 35, width: 45, height: 45)
+}
+
+//Orange Color
+canvas.fillColor = Color.init(hue: 53, saturation: 93, brightness: 98, alpha: 100)
+
+//Orange Circles
+for x in stride(from: 25, through: 450, by: 70){
+    
+    //First Row
+    canvas.drawEllipse(centreX: x, centreY: 365, width: 30, height: 30)
+    
+    //Sedond Row
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 30, height: 30)
+    
+    //Third Row
+    canvas.drawEllipse(centreX: x, centreY: 175, width: 30, height: 30)
+    
+    //Forth Row
+    canvas.drawEllipse(centreX: x, centreY: 35, width: 30, height: 30)
+}
+
+//White Color
+canvas.fillColor = Color.white
+
+//White Circles
+for x in stride(from: 25, through: 450, by: 70){
+    
+    //First Row
+    canvas.drawEllipse(centreX: x, centreY: 365, width: 15, height: 15)
+    
+    //Sedond Row
+    canvas.drawEllipse(centreX: x, centreY: 250, width: 15, height: 15)
+    
+    //Third Row
+    canvas.drawEllipse(centreX: x, centreY: 175, width: 15, height: 15)
+    
+    //Forth Row
+    canvas.drawEllipse(centreX: x, centreY: 35, width: 15, height: 15)
+}
+
+
+
 
 /*:
  ## Template code

@@ -21,7 +21,8 @@ import PlaygroundSupport
 // Create canvas
 let canvas = Canvas(width: 400, height: 400)
 
-// Replace this comment and add your code below
+//Big Ovals
+canvas.drawEllipse(centreX: 200, centreY: 200, width: 10, height: 300)
 
 /*:
  ## Template code
