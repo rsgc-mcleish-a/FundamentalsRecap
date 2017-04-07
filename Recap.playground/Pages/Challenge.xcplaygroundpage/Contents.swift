@@ -115,7 +115,7 @@ for x in stride(from: 25, through: 450, by: 70){
 canvas.fillColor = Color.init(hue: 53, saturation: 93, brightness: 98, alpha: 100)
 
 //Yellow Circles
-for x in stride(from: 60, through: 450, by: 70){
+for x in stride(from: -10, through: 450, by: 70){
     
     //First Row
     canvas.drawEllipse(centreX: x, centreY: 340, width: 55, height: 55)
@@ -134,7 +134,7 @@ for x in stride(from: 60, through: 450, by: 70){
 canvas.fillColor = Color.init(hue: 22, saturation: 93, brightness: 90, alpha: 100)
 
 //Orange Circles
-for x in stride(from: 60, through: 450, by: 70){
+for x in stride(from: -10, through: 450, by: 70){
     
     //First Row
     canvas.drawEllipse(centreX: x, centreY: 340, width: 40, height: 40)
@@ -155,7 +155,7 @@ for x in stride(from: 60, through: 450, by: 70){
 canvas.fillColor = Color.init(hue: 26, saturation: 69, brightness: 37, alpha: 100)
 
 //Brown Circles
-for x in stride(from: 60, through: 450, by: 70){
+for x in stride(from: -10, through: 450, by: 70){
     
     //First Row
     canvas.drawEllipse(centreX: x, centreY: 340, width: 25, height: 25)
@@ -194,17 +194,228 @@ canvas.drawLine(fromX: x, fromY: 0, toX: x, toY: 57)
 //White lines
 for x in stride(from: 25, through: 450, by: 70){
 
-canvas.defaultLineWidth = 17
+canvas.defaultLineWidth = 16
     
 //First row
 canvas.drawLine(fromX: x, fromY: 255, toX: x, toY: 360)
     
 //Second row
-canvas.drawLine(fromX: x, fromY: 0, toX: x, toY: 30)
+canvas.drawLine(fromX: x, fromY: 45, toX: x, toY: 170)
 }
 
+//Yellow lines
+canvas.defaultLineWidth = 8
+
+canvas.lineColor = Color.init(hue: 53, saturation: 93, brightness: 98, alpha: 100)
+
+canvas.drawLine(fromX: 13, fromY: 360, toX: 13, toY: 340)
+
+canvas.drawLine(fromX: 37, fromY: 360, toX: 37, toY: 340)
+
+canvas.drawLine(fromX: 83, fromY: 360, toX: 83, toY: 340)
+
+canvas.drawLine(fromX: 107, fromY: 360, toX: 107, toY: 340)
+
+canvas.drawLine(fromX: 153, fromY: 360, toX: 153, toY: 340)
+
+canvas.drawLine(fromX: 177, fromY: 360, toX: 177, toY: 340)
+
+canvas.drawLine(fromX: 223, fromY: 360, toX: 223, toY: 340)
+
+canvas.drawLine(fromX: 247, fromY: 360, toX: 247, toY: 340)
+
+canvas.drawLine(fromX: 293, fromY: 360, toX: 293, toY: 340)
+
+canvas.drawLine(fromX: 317, fromY: 360, toX: 317, toY: 340)
+
+canvas.drawLine(fromX: 363, fromY: 360, toX: 363, toY: 340)
+
+canvas.drawLine(fromX: 387, fromY: 360, toX: 387, toY: 340)
 
 
+
+canvas.drawLine(fromX: 13, fromY: 280, toX: 13, toY: 257)
+
+canvas.drawLine(fromX: 37, fromY: 280, toX: 37, toY: 257)
+
+canvas.drawLine(fromX: 83, fromY: 280, toX: 83, toY: 257)
+
+canvas.drawLine(fromX: 107, fromY: 280, toX: 107, toY: 257)
+
+canvas.drawLine(fromX: 153, fromY: 280, toX: 153, toY: 257)
+
+canvas.drawLine(fromX: 177, fromY: 280, toX: 177, toY: 257)
+
+canvas.drawLine(fromX: 223, fromY: 280, toX: 223, toY: 257)
+
+canvas.drawLine(fromX: 247, fromY: 280, toX: 247, toY: 257)
+
+canvas.drawLine(fromX: 293, fromY: 280, toX: 293, toY: 257)
+
+canvas.drawLine(fromX: 317, fromY: 280, toX: 317, toY: 257)
+
+canvas.drawLine(fromX: 363, fromY: 280, toX: 363, toY: 257)
+
+canvas.drawLine(fromX: 387, fromY: 280, toX: 387, toY: 257)
+
+
+
+canvas.drawLine(fromX: 13, fromY: 170, toX: 13, toY: 150)
+
+canvas.drawLine(fromX: 37, fromY: 170, toX: 37, toY: 150)
+
+canvas.drawLine(fromX: 83, fromY: 170, toX: 83, toY: 150)
+
+canvas.drawLine(fromX: 107, fromY: 170, toX: 107, toY: 150)
+
+canvas.drawLine(fromX: 153, fromY: 170, toX: 153, toY: 150)
+
+canvas.drawLine(fromX: 177, fromY: 170, toX: 177, toY: 150)
+
+canvas.drawLine(fromX: 223, fromY: 170, toX: 223, toY: 150)
+
+canvas.drawLine(fromX: 247, fromY: 170, toX: 247, toY: 150)
+
+canvas.drawLine(fromX: 293, fromY: 170, toX: 293, toY: 150)
+
+canvas.drawLine(fromX: 317, fromY: 170, toX: 317, toY: 150)
+
+canvas.drawLine(fromX: 363, fromY: 170, toX: 363, toY: 150)
+
+canvas.drawLine(fromX: 387, fromY: 170, toX: 387, toY: 150)
+
+
+
+canvas.drawLine(fromX: 13, fromY: 60, toX: 13, toY: 40)
+
+canvas.drawLine(fromX: 37, fromY: 60, toX: 37, toY: 40)
+
+canvas.drawLine(fromX: 83, fromY: 60, toX: 83, toY: 40)
+
+canvas.drawLine(fromX: 107, fromY: 60, toX: 107, toY: 40)
+
+canvas.drawLine(fromX: 153, fromY: 60, toX: 153, toY: 40)
+
+canvas.drawLine(fromX: 177, fromY: 60, toX: 177, toY: 40)
+
+canvas.drawLine(fromX: 223, fromY: 60, toX: 223, toY: 40)
+
+canvas.drawLine(fromX: 247, fromY: 60, toX: 247, toY: 40)
+
+canvas.drawLine(fromX: 293, fromY: 60, toX: 293, toY: 40)
+
+canvas.drawLine(fromX: 317, fromY: 60, toX: 317, toY: 40)
+
+canvas.drawLine(fromX: 363, fromY: 60, toX: 363, toY: 40)
+
+canvas.drawLine(fromX: 387, fromY: 60, toX: 387, toY: 40)
+
+
+
+//Orange Lines
+canvas.lineColor = Color.init(hue: 22, saturation: 93, brightness: 90, alpha: 100)
+
+canvas.drawLine(fromX: 6, fromY: 363, toX: 6, toY: 339)
+
+canvas.drawLine(fromX: 44, fromY: 363, toX: 44, toY: 339)
+
+canvas.drawLine(fromX: 76, fromY: 363, toX: 76, toY: 339)
+
+canvas.drawLine(fromX: 114, fromY: 363, toX: 114, toY: 339)
+
+canvas.drawLine(fromX: 146, fromY: 363, toX: 146, toY: 339)
+
+canvas.drawLine(fromX: 184, fromY: 363, toX: 184, toY: 339)
+
+canvas.drawLine(fromX: 216, fromY: 363, toX: 216, toY: 339)
+
+canvas.drawLine(fromX: 254, fromY: 363, toX: 254, toY: 339)
+
+canvas.drawLine(fromX: 286, fromY: 363, toX: 286, toY: 339)
+
+canvas.drawLine(fromX: 324, fromY: 363, toX: 324, toY: 339)
+
+canvas.drawLine(fromX: 356, fromY: 363, toX: 356, toY: 339)
+
+canvas.drawLine(fromX: 394, fromY: 363, toX: 394, toY: 339)
+
+
+
+canvas.drawLine(fromX: 6, fromY: 278, toX: 6, toY: 255)
+
+canvas.drawLine(fromX: 44, fromY: 278, toX: 44, toY: 255)
+
+canvas.drawLine(fromX: 76, fromY: 278, toX: 76, toY: 255)
+
+canvas.drawLine(fromX: 114, fromY: 278, toX: 114, toY: 255)
+
+canvas.drawLine(fromX: 146, fromY: 278, toX: 146, toY: 255)
+
+canvas.drawLine(fromX: 184, fromY: 278, toX: 184, toY: 255)
+
+canvas.drawLine(fromX: 216, fromY: 278, toX: 216, toY: 255)
+
+canvas.drawLine(fromX: 254, fromY: 278, toX: 254, toY: 255)
+
+canvas.drawLine(fromX: 286, fromY: 278, toX: 286, toY: 255)
+
+canvas.drawLine(fromX: 324, fromY: 278, toX: 324, toY: 255)
+
+canvas.drawLine(fromX: 356, fromY: 278, toX: 356, toY: 255)
+
+canvas.drawLine(fromX: 394, fromY: 278, toX: 394, toY: 255)
+
+
+
+canvas.drawLine(fromX: 6, fromY: 173, toX: 6, toY: 149)
+
+canvas.drawLine(fromX: 44, fromY: 173, toX: 44, toY: 149)
+
+canvas.drawLine(fromX: 76, fromY: 173, toX: 76, toY: 149)
+
+canvas.drawLine(fromX: 114, fromY: 173, toX: 114, toY: 149)
+
+canvas.drawLine(fromX: 146, fromY: 173, toX: 146, toY: 149)
+
+canvas.drawLine(fromX: 184, fromY: 173, toX: 184, toY: 149)
+
+canvas.drawLine(fromX: 216, fromY: 173, toX: 216, toY: 149)
+
+canvas.drawLine(fromX: 254, fromY: 173, toX: 254, toY: 149)
+
+canvas.drawLine(fromX: 286, fromY: 173, toX: 286, toY: 149)
+
+canvas.drawLine(fromX: 324, fromY: 173, toX: 324, toY: 149)
+
+canvas.drawLine(fromX: 356, fromY: 173, toX: 356, toY: 149)
+
+canvas.drawLine(fromX: 394, fromY: 173, toX: 394, toY: 149)
+
+
+
+canvas.drawLine(fromX: 6, fromY: 63, toX: 6, toY: 39)
+
+canvas.drawLine(fromX: 44, fromY: 63, toX: 44, toY: 39)
+
+canvas.drawLine(fromX: 76, fromY: 63, toX: 76, toY: 39)
+
+canvas.drawLine(fromX: 114, fromY: 63, toX: 114, toY: 39)
+
+canvas.drawLine(fromX: 146, fromY: 63, toX: 146, toY: 39)
+
+canvas.drawLine(fromX: 184, fromY: 63, toX: 184, toY: 39)
+
+canvas.drawLine(fromX: 216, fromY: 63, toX: 216, toY: 39)
+
+canvas.drawLine(fromX: 254, fromY: 63, toX: 254, toY: 39)
+
+canvas.drawLine(fromX: 286, fromY: 63, toX: 286, toY: 39)
+
+canvas.drawLine(fromX: 324, fromY: 63, toX: 324, toY: 39)
+
+canvas.drawLine(fromX: 356, fromY: 63, toX: 356, toY: 39)
+
+canvas.drawLine(fromX: 394, fromY: 63, toX: 394, toY: 39)
 
 
 /*:
